@@ -1,22 +1,19 @@
-body.dark-mode {
-    background-color: #001f3f; /* Dark blue */
+/* dark-mode.css */
+.custom-dark-mode body {
+    background-color: #333; /* Dark grey background color */
+    color: white; /* Set text color to white */
 }
 
-.container, .basic-info {
-    background-color: black; 
-    border-radius: 10px; /* Rounded corners for the content box */
-    padding: 20px; /* Add padding inside the content box */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the content box */
-    margin-top: 20px; /* Add a margin between the content box and the body */
+.custom-dark-mode .container, .custom-dark-mode .basic-info {
+    background-color: #222; /* Slightly darker background */
+    color: white; /* Set text color to white */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
-/* Set specific element text color to white */
-body.dark-mode h1,
-body.dark-mode h2,
-body.dark-mode p,
-body.dark-mode a,
-body.dark-mode li {
-    color: white;
+.custom-dark-mode body .btn-outline-primary {
+    color: white; /* Set toggle button text color to white */
 }
-
 

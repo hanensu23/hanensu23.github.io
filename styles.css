@@ -5,7 +5,7 @@ h1, h2, p {
 
 body {
     width: 75%;
-    background-color: #007acc; /* Ocean blue background color */
+    background-color: turquoise; /* Ocean blue background color */
     margin: 0 auto; /* Center the body horizontally */
     padding: 20px; /* Add padding to create a clear margin around the body */
     box-sizing: border-box; /* Include padding in the width calculation */

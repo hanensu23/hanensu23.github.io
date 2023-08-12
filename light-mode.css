@@ -1,0 +1,19 @@
+/* light-mode.css */
+.custom-light-mode body {
+    background-color: #fff; /* Bright white background color */
+    color: black; /* Set text color to black */
+}
+
+.custom-light-mode .container, .custom-light-mode .basic-info {
+    background-color: #f2f2f2; /* Light grey background */
+    color: black; /* Set text color to black */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.custom-light-mode body .btn-outline-primary {
+    color: black; /* Set toggle button text color to black */
+}
+
