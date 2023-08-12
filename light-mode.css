@@ -1,10 +1,10 @@
 /* light-mode.css */
 .custom-light-mode body {
-    background-color: #fff; /* Bright white background color */
+    background-color: #007acc; /* Ocean blue background color */
     color: black; /* Set text color to black */
 }
 
-.custom-light-mode .container, .custom-light-mode .basic-info {
+.custom-light-mode .container, .custom-light-mode .basic-info, .custom-light-mode .contact-form {
     background-color: #f2f2f2; /* Light grey background */
     color: black; /* Set text color to black */
     border-radius: 10px;
@@ -16,4 +16,3 @@
 .custom-light-mode body .btn-outline-primary {
     color: black; /* Set toggle button text color to black */
 }
-
