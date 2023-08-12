@@ -28,3 +28,7 @@ body {
 .btn-outline-danger, p {
     margin-top: 30px; /* Add margin between sections */
 }
+
+.container {
+    margin-top: 50px; /* Add margin to create space between heading and toggle */
+}
