@@ -13,6 +13,11 @@
     margin-top: 20px;
 }
 
-.custom-light-mode body .btn-outline-primary {
+.custom-light-mode body .btn-outline-primary, .custom-light-mode .navbar .navbarbrand {
     color: black; /* Set toggle button text color to black */
+}
+
+.custom-light-mode .navbar{
+    background-color: #f2f2f2 !important; /* Light grey background */
+    color: black !important; /* Set text color to black */
 }
