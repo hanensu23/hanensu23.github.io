@@ -7,6 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
         isDarkMode = !isDarkMode;
         body.classList.toggle("custom-dark-mode", isDarkMode);
         body.classList.toggle("custom-light-mode", !isDarkMode);
-        darkModeToggle.textContent = isDarkMode ? "Light Mode" : "Dark Mode";
+        darkModeToggle.textContent = isDarkMode ? "Dark Mode" : "Light Mode";
     });
 });
